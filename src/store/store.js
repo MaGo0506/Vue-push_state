@@ -37,6 +37,6 @@ export const store = new Vuex.Store({
 		},
 		resetState(state) {
 			state.posts = [];
-		}
+		},
 	},
 });

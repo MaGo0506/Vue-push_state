@@ -94,7 +94,7 @@ export default {
 		},
 		resetBtn() {
 			this.active = 0;
-      this.$store.commit('resetState');
+			this.$store.commit('resetState');
 		},
 	},
 };
