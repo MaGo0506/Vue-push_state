@@ -35,8 +35,5 @@ export const store = new Vuex.Store({
 		SET_POSTS(state, posts) {
 			state.posts = posts;
 		},
-		resetState(state) {
-			state.posts = [];
-		},
 	},
 });
